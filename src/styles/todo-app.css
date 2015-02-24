@@ -1,0 +1,36 @@
+htm, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  color: #333;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+#todo-app {
+  margin: 20px;
+}
+
+#todo-app #header h1 > i {
+  margin: 0 10px;
+}
+
+.input-box button.btn > .fa
+{
+  margin: 3px 0;
+}
+
+#todo-list li label {
+  margin: 0 10px;
+}
+
+#todo-list li.done label {
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
